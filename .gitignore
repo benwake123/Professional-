@@ -1,7 +1,13 @@
-.venv/
-__pycache__/
+# Virtual env & Python
+**/.venv/
+**/__pycache__/
 *.pyc
-.pytest_cache/
-data/
-outputs/
+**/.pytest_cache/
+
+# quant-ml-alpha generated / local artifacts
+quant-ml-alpha/data/
+quant-ml-alpha/outputs/
 *.parquet
+
+# Other project folders (add per-project as needed)
+# example-project/.env
