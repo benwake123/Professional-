@@ -1,9 +1,0 @@
-pandas
-numpy
-scikit-learn
-yfinance
-matplotlib
-seaborn
-pyyaml
-pyarrow
-pytest
