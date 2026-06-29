@@ -1,7 +1,0 @@
-rejection_reason,count,pct_of_decisions
-signal_flat,278,55.489021956087825
-risk_rejected,142,28.343313373253494
-executed,69,13.77245508982036
-insufficient_edge_after_costs,6,1.1976047904191616
-structure_selection_failed,5,0.998003992015968
-empty_option_chain,1,0.1996007984031936
