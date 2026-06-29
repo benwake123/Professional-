@@ -13,7 +13,10 @@ To use a longer live Yahoo Finance history, omit the local sample:
 ```bash
 python src/sector_rotation.py --csv "" --start 2005-01-01
 ```
-
+To see the outputs used for the window tested in this project run:
+'''bash
+python src/sector_rotation.py --csv "" --start 2019-01-01 --end 2020-01-01 --lookback 20 --top-n 2 --holding 20 --mode reversal --outdir outputs/best_window
+'''
 ## Outputs
 `outputs/` contains metrics, daily returns, portfolio weights, rebalance selections, equity curves, and drawdown charts.
 

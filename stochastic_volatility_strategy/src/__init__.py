@@ -1,0 +1,1 @@
+"""Stochastic-volatility strategy package."""

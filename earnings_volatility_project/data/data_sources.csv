@@ -1,0 +1,6 @@
+source_id,dataset_component,provider,source_url
+AAPL_YF_GITHUB,AAPL split-adjusted daily OHLCV,Yahoo Finance data republished under Apache-2.0 by FarhanAli97,https://github.com/FarhanAli97/Apple-AAPL-Stock-Data-1980-to-December-2024
+CBOE_VXAPL,Cboe Apple VIX Index daily OHLC,Cboe Global Markets,https://cdn.cboe.com/api/global/us_indices/daily_prices/VXAPL_History.csv
+CBOE_VIX,Cboe VIX Index daily OHLC,Cboe Global Markets,https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv
+CBOE_VIX9D,Cboe S&P 500 9-Day Volatility Index daily OHLC,Cboe Global Markets,https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv
+ALPHAQUERY_ZACKS_EARNINGS,Apple earnings announcement dates and EPS estimates/actuals,AlphaQuery; underlying earnings data credited to Zacks,https://www.alphaquery.com/stock/AAPL/earnings-history

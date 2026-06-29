@@ -1,0 +1,74 @@
+{
+  "paths": {
+    "underlying_csv": "data/raw/spy_prices.csv",
+    "options_csv": "data/raw/spy_options.csv",
+    "vix_csv": "data/raw/vix_data.csv",
+    "risk_free_csv": "data/raw/risk_free_rates.csv",
+    "results_dir": "results"
+  },
+  "dates": {
+    "development_start": "2014-01-01",
+    "validation_start": "2019-01-01",
+    "test_start": "2022-01-01",
+    "end": "2023-12-31"
+  },
+  "decision_frequency": "B",
+  "heston_calibration_frequency": "W-MON",
+  "forecast_model": "ensemble",
+  "model": {
+    "lookback_days": 252,
+    "forecast_horizon_days": 21,
+    "simulation_paths": 2000,
+    "random_seed": 42
+  },
+  "signal": {
+    "rolling_zscore_window": 60,
+    "long_vol_z_threshold": 0.75,
+    "short_vol_z_threshold": 0.75,
+    "exit_threshold": 0.25,
+    "edge_safety_buffer": 0.0,
+    "ensemble_weights": {
+      "heston": 0.4,
+      "ewma": 0.3,
+      "historical": 0.3
+    }
+  },
+  "options": {
+    "minimum_dte": 14,
+    "maximum_dte": 45,
+    "target_dte": 30,
+    "atm_moneyness_low": 0.98,
+    "atm_moneyness_high": 1.02,
+    "maximum_relative_spread": 0.10,
+    "minimum_open_interest": 100,
+    "minimum_volume": 10,
+    "wing_width_percent": 0.05
+  },
+  "risk": {
+    "initial_capital": 1000000,
+    "target_annual_volatility": 0.1,
+    "maximum_trade_risk_fraction": 0.02,
+    "maximum_absolute_delta": 0.05,
+    "maximum_portfolio_vega": 50000,
+    "maximum_drawdown": 0.15,
+    "maximum_open_positions": 3,
+    "trade_cooldown_days": 5
+  },
+  "execution": {
+    "option_commission_per_contract": 0.65,
+    "option_slippage_fraction_of_spread": 0.25,
+    "stock_slippage_bps": 1.0
+  },
+  "delta_hedge": {
+    "mode": "threshold",
+    "tolerance_shares": 50
+  },
+  "exits": {
+    "minimum_dte_to_keep": 5,
+    "maximum_holding_days": 15,
+    "maximum_loss_fraction": 0.50,
+    "profit_target_fraction": 0.50,
+    "signal_convergence_threshold": 0.25,
+    "portfolio_max_drawdown_exit": 0.15
+  }
+}

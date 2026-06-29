@@ -1,0 +1,364 @@
+date,action,position_id,structure,quantity,direction,net_cash_flow,edge_after_costs,reasons,reason,realized_pnl,gross_option_pnl,commission,slippage,shares,gross_cash_flow
+2022-03-29,entry,P0001,iron_butterfly,13.0,short_vol,20140.379999999997,5126.71427223519,,,,,,,,
+2022-03-30,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-03-31,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-04-01,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-04-04,entry,P0002,iron_butterfly,10.0,short_vol,16710.550000000003,4138.597402401559,,,,,,,,
+2022-04-05,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-04-07,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-04-08,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-04-12,exit,P0001,,,,,,,profit_target,-797.6800000000076,-608.4000000000087,67.60000000000001,121.68000000000016,,
+2022-04-12,hedge,,,,,27168.545204,,,,,,,,-62.0,27171.262602
+2022-04-13,entry,P0003,iron_butterfly,12.0,short_vol,21230.25,9436.698941589653,,,,,,,,
+2022-04-13,hedge,,,,,-74490.975216,,,,,,,,168.0,-74483.527608
+2022-04-14,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-04-18,entry,P0004,iron_butterfly,19.0,short_vol,29391.005000000005,13204.41006089327,,,,,,,,
+2022-04-19,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-04-19,exit,P0002,,,,,,,maximum_holding_period,-534.0999999999985,-401.75,52.0,80.34999999999998,,
+2022-04-19,hedge,,,,,-47628.803856000006,,,,,,,,107.0,-47624.041928000006
+2022-04-20,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-04-25,exit,P0003,,,,,,,signal_convergence,-810.6599999999962,-623.5499999999956,62.400000000000006,124.70999999999978,,
+2022-04-25,exit,P0004,,,,,,,signal_convergence,-1416.0699999999997,-1097.7249999999985,98.8,219.5450000000003,,
+2022-04-25,hedge,,,,,91254.375474,,,,,,,,-213.0,91263.502737
+2022-04-26,entry,P0005,long_straddle,2.0,long_vol,-6932.4450000000015,5121.36103417444,,,,,,,,
+2022-04-27,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-04-29,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-05-02,entry,P0006,long_straddle,2.0,long_vol,-6670.030000000002,4623.045618626538,,,,,,,,
+2022-05-09,entry,P0007,long_straddle,2.0,long_vol,-6878.175000000001,4682.90557097341,,,,,,,,
+2022-05-10,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-05-11,exit,P0005,,,,,,,maximum_holding_period,-89.1100000000024,-69.92500000000109,5.2,13.985000000000092,,
+2022-05-13,exit,P0006,,,,,,,signal_convergence,-90.46000000000276,-71.05000000000109,5.2,14.2100000000001,,
+2022-05-13,exit,P0007,,,,,,,signal_convergence,-89.41000000000167,-70.17500000000109,5.2,14.034999999999975,,
+2022-06-07,entry,P0008,iron_butterfly,16.0,short_vol,27292.400000000005,8047.983824766455,,,,,,,,
+2022-06-07,hedge,,,,,39903.05779200001,,,,,,,,-96.0,39907.04889600001
+2022-06-08,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-06-10,exit,P0008,,,,,,,signal_convergence,-1234.719999999994,-959.5999999999985,83.2,191.91999999999928,,
+2022-06-10,hedge,,,,,-37428.284159999996,,,,,,,,96.0,-37424.54208
+2022-06-13,entry,P0009,long_straddle,3.0,long_vol,-9505.702500000001,5832.063035479662,,,,,,,,
+2022-06-14,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-06-15,exit,P0009,,,,,,,signal_convergence,-121.15500000000247,-94.46250000000146,7.800000000000001,18.89250000000007,,
+2022-06-16,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-07-07,entry,P0010,iron_butterfly,14.0,short_vol,26062.049999999996,7839.095503632487,,,,,,,,
+2022-07-07,exit,P0010,,,,,,,maximum_loss,-1068.6200000000063,-829.8500000000022,72.8,165.9699999999999,,
+2022-07-08,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-07-11,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-07-14,entry,P0011,iron_butterfly,22.0,short_vol,30873.479999999996,9771.87934455337,,,,,,,,
+2022-07-14,hedge,,,,,-19277.264681999997,,,,,,,,51.0,-19275.337341
+2022-07-15,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-07-18,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-07-19,entry,P0012,iron_butterfly,18.0,short_vol,29071.844999999998,6090.28186197365,,,,,,,,
+2022-07-19,hedge,,,,,34120.66450200001,,,,,,,,-87.0,34124.077251
+2022-07-20,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-07-21,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-07-22,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-07-25,entry,P0013,iron_butterfly,12.0,short_vol,21559.589999999997,3150.292160864174,,,,,,,,
+2022-07-26,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-07-27,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-07-28,entry_rejected,,,,,,,"['Trade cooldown active (3 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-07-29,entry_skipped,,,,,,-942.6829155611462,,insufficient_edge_after_costs,,,,,,
+2022-07-29,exit,P0011,,,,,,,maximum_holding_period,-1884.520000000015,-1475.1000000000095,114.4,295.0200000000007,,
+2022-08-01,entry,P0014,iron_butterfly,14.0,short_vol,23660.0,1993.3875360692227,,,,,,,,
+2022-08-01,hedge,,,,,-71077.42264199999,,,,,,,,173.0,-71070.31632099999
+2022-08-02,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Duplicate iron_butterfly already open for expiration 2022-09-06.', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-08-03,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-08-03,exit,P0012,,,,,,,maximum_holding_period,-1365.5700000000033,-1059.9750000000022,93.60000000000001,211.99500000000012,,
+2022-08-03,hedge,,,,,-35649.82854,,,,,,,,86.0,-35646.26427
+2022-08-04,entry_skipped,,,,,,-646.6222596803548,,insufficient_edge_after_costs,,,,,,
+2022-08-05,entry_skipped,,,,,,-292.69901818014546,,insufficient_edge_after_costs,,,,,,
+2022-08-08,entry_skipped,,,,,,-824.4165615213395,,insufficient_edge_after_costs,,,,,,
+2022-08-09,entry,P0015,iron_butterfly,14.0,short_vol,22720.880000000005,420.9340759333646,,,,,,,,
+2022-08-09,exit,P0013,,,,,,,maximum_holding_period,-779.3400000000001,-597.4500000000007,62.400000000000006,119.4899999999997,,
+2022-08-09,hedge,,,,,45239.450300000004,,,,,,,,-110.0,45243.975150000006
+2022-08-10,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-08-11,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-08-12,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-08-15,entry,P0016,iron_butterfly,11.0,short_vol,18091.672500000004,2197.018558953806,,,,,,,,
+2022-08-15,hedge,,,,,-62197.136940000004,,,,,,,,145.0,-62190.918470000004
+2022-08-16,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-08-16,exit,P0014,,,,,,,maximum_holding_period,-969.0799999999981,-746.8999999999978,72.8,149.3800000000001,,
+2022-08-16,hedge,,,,,77330.53080000001,,,,,,,,-180.0,77338.2654
+2022-08-17,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-08-18,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-08-19,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-08-24,exit,P0015,,,,,,,maximum_holding_period,-906.0799999999945,-694.3999999999942,72.8,138.88000000000008,,
+2022-08-24,hedge,,,,,-28135.185911999997,,,,,,,,68.0,-28132.372956
+2022-08-25,entry,P0017,iron_butterfly,10.0,short_vol,18445.3,205.83786117032128,,,,,,,,
+2022-08-26,exit,P0016,,,,,,,signal_convergence,-610.4449999999924,-461.03749999999854,57.2,92.20750000000034,,
+2022-08-26,exit,P0017,,,,,,,signal_convergence,-600.4000000000015,-457.0,52.0,91.40000000000009,,
+2022-08-26,hedge,,,,,59163.42494800001,,,,,,,,-146.0,59169.342474000005
+2022-09-20,entry,P0018,long_straddle,3.0,long_vol,-7776.3525,2465.8894108507457,,,,,,,,
+2022-09-21,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-09-22,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-09-23,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-09-26,entry,P0019,long_straddle,3.0,long_vol,-8764.95,4340.623141097669,,,,,,,,
+2022-09-27,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-09-28,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-09-29,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-09-30,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-10-03,entry,P0020,long_straddle,3.0,long_vol,-8215.289999999999,3457.8848131546238,,,,,,,,
+2022-10-03,hedge,,,,,21625.664002,,,,,,,,-59.0,21627.827001
+2022-10-04,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-10-05,exit,P0018,,,,,,,maximum_holding_period,-101.89499999999953,-78.41249999999945,7.800000000000001,15.682499999999955,,
+2022-10-06,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-10-07,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-10-10,entry,P0021,long_straddle,3.0,long_vol,-8702.654999999999,4246.143699117685,,,,,,,,
+2022-10-11,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-10-11,exit,P0019,,,,,,,maximum_holding_period,-117.78000000000065,-91.64999999999964,7.800000000000001,18.330000000000048,,
+2022-10-12,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-10-13,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-10-14,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-10-17,entry,P0022,long_straddle,3.0,long_vol,-8568.39,3703.5776526379736,,,,,,,,
+2022-10-18,exit,P0020,,,,,,,maximum_holding_period,-112.199999999998,-86.99999999999818,7.800000000000001,17.39999999999995,,
+2022-10-19,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2022-10-25,exit,P0021,,,,,,,maximum_holding_period,-111.92999999999847,-86.77499999999964,7.800000000000001,17.355000000000054,,
+2022-10-25,exit,P0022,,,,,,,signal_convergence,-113.09999999999854,-87.75,7.800000000000001,17.549999999999997,,
+2022-10-25,hedge,,,,,-22714.822056000005,,,,,,,,59.0,-22712.551028
+2022-11-04,entry,P0023,iron_butterfly,13.0,short_vol,23018.449999999997,1222.2719894409481,,,,,,,,
+2022-11-04,hedge,,,,,-32372.57322000001,,,,,,,,86.0,-32369.336610000006
+2022-11-07,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-11-10,entry,P0024,iron_butterfly,12.0,short_vol,21615.899999999998,890.4795104794852,,,,,,,,
+2022-11-10,hedge,,,,,-20527.984776,,,,,,,,52.0,-20525.932388
+2022-11-11,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-11-14,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-11-15,entry_skipped,,,,,,-590.3017507124866,,insufficient_edge_after_costs,,,,,,
+2022-11-16,entry_skipped,,,,,,-141.80443389082063,,insufficient_edge_after_costs,,,,,,
+2022-11-17,entry,P0025,iron_butterfly,17.0,short_vol,27169.144999999993,1.6640675338508117,,,,,,,,
+2022-11-17,hedge,,,,,28773.764096000003,,,,,,,,-73.0,28776.642048
+2022-11-18,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-11-18,exit,P0023,,,,,,,maximum_loss,-873.3400000000074,-671.450000000008,67.60000000000001,134.29000000000022,,
+2022-11-18,hedge,,,,,34051.768284,,,,,,,,-86.0,34055.174141999996
+2022-11-21,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-11-22,entry,P0026,iron_butterfly,14.0,short_vol,21655.304999999997,6061.629779823409,,,,,,,,
+2022-11-22,hedge,,,,,27987.4014,,,,,,,,-70.0,27990.200699999998
+2022-11-23,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-11-25,entry_rejected,,,,,,,"['Trade cooldown active (3 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-11-25,exit,P0024,,,,,,,maximum_holding_period,-781.320000000007,-599.1000000000058,62.400000000000006,119.82,,
+2022-11-25,hedge,,,,,20916.975768,,,,,,,,-52.0,20919.067884
+2022-11-28,entry,P0027,iron_butterfly,18.0,short_vol,25364.25,4683.214472661303,,,,,,,,
+2022-11-28,hedge,,,,,-23363.361738,,,,,,,,59.0,-23361.025869
+2022-11-29,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Duplicate iron_butterfly already open for expiration 2023-01-03.', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-11-30,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-12-01,entry_rejected,,,,,,,"['Trade cooldown active (3 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-12-02,entry_rejected,,,,,,,"['Trade cooldown active (4 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-12-02,exit,P0025,,,,,,,maximum_holding_period,-1246.6100000000115,-965.1750000000065,88.4,193.03500000000008,,
+2022-12-02,hedge,,,,,-29710.370885999997,,,,,,,,73.0,-29707.400443
+2022-12-05,entry,P0028,iron_butterfly,13.0,short_vol,19884.117500000004,7695.821147078245,,,,,,,,
+2022-12-05,hedge,,,,,27166.685576,,,,,,,,-68.0,27169.402788
+2022-12-06,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-12-07,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2022-12-07,exit,P0026,,,,,,,maximum_holding_period,-842.450000000008,-641.3750000000036,72.8,128.27500000000063,,
+2022-12-07,hedge,,,,,-27526.70424,,,,,,,,70.0,-27523.95212
+2022-12-08,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-12-09,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2022-12-13,entry,P0029,iron_butterfly,11.0,short_vol,19784.435,2702.8582890375087,,,,,,,,
+2022-12-13,exit,P0027,,,,,,,maximum_holding_period,-1256.2200000000084,-968.8500000000058,93.60000000000001,193.77000000000044,,
+2022-12-14,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-12-20,entry,P0030,iron_butterfly,15.0,short_vol,22253.812499999993,5408.475130356521,,,,,,,,
+2022-12-20,exit,P0028,,,,,,,maximum_holding_period,-761.9949999999917,-578.6624999999949,67.60000000000001,115.73250000000039,,
+2022-12-21,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2022-12-23,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2022-12-27,exit,P0029,,,,,,,profit_target,-660.1099999999933,-502.42499999999563,57.2,100.485,,
+2022-12-27,hedge,,,,,29743.250159999996,,,,,,,,-78.0,29746.225079999997
+2023-01-04,exit,P0030,,,,,,,maximum_holding_period,-893.6250000000036,-679.6875000000036,78.0,135.93750000000026,,
+2023-01-04,hedge,,,,,-33393.797424,,,,,,,,87.0,-33390.458712
+2023-01-12,entry,P0031,iron_butterfly,16.0,short_vol,21178.28,13162.18038225364,,,,,,,,
+2023-01-12,hedge,,,,,-26998.678655999996,,,,,,,,68.0,-26995.979327999998
+2023-01-13,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-01-17,entry,P0032,iron_butterfly,12.0,short_vol,17700.3,9530.528488332282,,,,,,,,
+2023-01-17,hedge,,,,,21475.284083999995,,,,,,,,-54.0,21477.432041999997
+2023-01-18,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-01-19,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-01-20,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-01-23,entry,P0033,iron_butterfly,12.0,short_vol,17965.620000000003,7733.982376274341,,,,,,,,
+2023-01-23,hedge,,,,,23632.442566,,,,,,,,-59.0,23634.806283
+2023-01-24,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-01-25,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-01-26,entry_rejected,,,,,,,"['Trade cooldown active (3 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-01-27,entry_rejected,,,,,,,"['Trade cooldown active (4 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-01-27,exit,P0031,,,,,,,maximum_holding_period,-836.5600000000013,-627.8000000000065,83.2,125.56000000000066,,
+2023-01-27,hedge,,,,,27175.123888,,,,,,,,-67.0,27177.841944
+2023-01-30,entry,P0034,iron_butterfly,13.0,short_vol,19524.602500000005,8149.104216894768,,,,,,,,
+2023-01-30,hedge,,,,,26033.142330000002,,,,,,,,-65.0,26035.746165
+2023-01-31,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-02-01,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-02-01,exit,P0032,,,,,,,maximum_holding_period,-614.2800000000061,-459.90000000000146,62.400000000000006,91.97999999999999,,
+2023-02-01,hedge,,,,,-22187.63664,,,,,,,,54.0,-22185.41832
+2023-02-02,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-02-03,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-02-07,entry,P0035,iron_butterfly,15.0,short_vol,20752.9125,11878.963134918231,,,,,,,,
+2023-02-07,exit,P0033,,,,,,,maximum_holding_period,-650.9999999999964,-490.49999999999636,62.400000000000006,98.09999999999971,,
+2023-02-07,hedge,,,,,-52739.675826,,,,,,,,127.0,-52734.402913
+2023-02-09,exit,P0034,,,,,,,signal_convergence,-714.8049999999967,-539.3374999999978,67.60000000000001,107.86749999999995,,
+2023-02-09,exit,P0035,,,,,,,signal_convergence,-812.6250000000036,-612.1875000000036,78.0,122.43749999999926,,
+2023-02-14,entry,P0036,iron_butterfly,11.0,short_vol,16978.4725,9055.981005590338,,,,,,,,
+2023-02-14,hedge,,,,,-66448.32700800001,,,,,,,,161.0,-66441.683504
+2023-02-15,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-02-16,exit,P0036,,,,,,,signal_convergence,-543.1249999999964,-404.93749999999636,57.2,80.98749999999993,,
+2023-02-16,hedge,,,,,65719.933384,,,,,,,,-161.0,65726.506692
+2023-02-21,entry,P0037,long_straddle,5.0,long_vol,-11350.512499999999,352.6452134946274,,,,,,,,
+2023-02-22,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-02-24,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-02-27,entry,P0038,long_straddle,5.0,long_vol,-10353.4,2004.5443842373825,,,,,,,,
+2023-02-27,hedge,,,,,31414.385866000008,,,,,,,,-79.0,31417.527933000005
+2023-03-02,exit,P0037,,,,,,,signal_convergence,-150.17499999999927,-114.3125,13.0,22.862500000000008,,
+2023-03-02,exit,P0038,,,,,,,signal_convergence,-141.70000000000073,-107.25,13.0,21.45000000000019,,
+2023-03-02,hedge,,,,,-31433.275398,,,,,,,,79.0,-31430.132699
+2023-03-03,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-03-06,entry,P0039,iron_butterfly,16.0,short_vol,21627.52,12695.679373441568,,,,,,,,
+2023-03-06,hedge,,,,,-39645.987612,,,,,,,,98.0,-39642.023806
+2023-03-07,exit,P0039,,,,,,,signal_convergence,-857.9199999999983,-645.5999999999985,83.2,129.12,,
+2023-03-07,hedge,,,,,39022.653908,,,,,,,,-98.0,39026.556954
+2023-03-09,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-03-10,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-03-13,entry,P0040,long_straddle,5.0,long_vol,-12716.425,3252.957540777859,,,,,,,,
+2023-03-14,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-03-15,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-03-16,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-03-17,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-03-20,entry,P0041,long_straddle,5.0,long_vol,-11807.8625,1294.417278988822,,,,,,,,
+2023-03-20,hedge,,,,,31099.238908,,,,,,,,-79.0,31102.349454
+2023-03-22,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-03-23,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-03-24,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-03-28,exit,P0040,,,,,,,maximum_holding_period,-173.34999999999854,-133.625,13.0,26.725000000000108,,
+2023-03-28,exit,P0041,,,,,,,signal_convergence,-159.47499999999854,-122.0625,13.0,24.412499999999724,,
+2023-03-28,hedge,,,,,-31258.650480000004,,,,,,,,79.0,-31255.525240000003
+2023-04-14,entry,P0042,iron_butterfly,8.0,short_vol,12541.78,8745.657541178001,,,,,,,,
+2023-04-14,hedge,,,,,-32590.856868,,,,,,,,79.0,-32587.598434
+2023-04-17,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-04-18,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-04-19,entry,P0043,iron_butterfly,12.0,short_vol,15709.08,12226.288335624631,,,,,,,,
+2023-04-19,hedge,,,,,-28167.152303999996,,,,,,,,68.0,-28164.336151999996
+2023-04-20,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-04-21,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-04-26,exit,P0042,,,,,,,signal_convergence,-307.880000000001,-221.90000000000146,41.6,44.37999999999995,,
+2023-04-26,exit,P0043,,,,,,,signal_convergence,-526.0799999999981,-386.3999999999978,62.400000000000006,77.27999999999969,,
+2023-04-26,hedge,,,,,59429.031816,,,,,,,,-147.0,59434.975908
+2023-04-27,entry,P0044,iron_butterfly,7.0,short_vol,11003.912499999999,7847.841596954334,,,,,,,,
+2023-04-27,hedge,,,,,-26399.518848000003,,,,,,,,64.0,-26396.879424000002
+2023-04-28,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-05-01,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-05-04,exit,P0044,,,,,,,signal_convergence,-264.56500000000415,-190.13750000000255,36.4,38.02750000000012,,
+2023-05-04,hedge,,,,,25923.134336000003,,,,,,,,-64.0,25925.727168
+2023-05-08,entry,P0045,iron_butterfly,9.0,short_vol,13122.112500000001,8921.63832474848,,,,,,,,
+2023-05-08,hedge,,,,,-57795.15672,,,,,,,,140.0,-57789.37836
+2023-05-09,exit,P0045,,,,,,,signal_convergence,-367.42499999999745,-267.1874999999982,46.800000000000004,53.43749999999978,,
+2023-05-09,hedge,,,,,57518.693960000004,,,,,,,,-140.0,57524.44698
+2023-05-17,entry,P0046,iron_butterfly,13.0,short_vol,17238.162500000002,12339.962926530035,,,,,,,,
+2023-05-17,hedge,,,,,-30317.852357999996,,,,,,,,73.0,-30314.821179
+2023-05-19,exit,P0046,,,,,,,signal_convergence,-599.3650000000016,-443.1375000000007,67.60000000000001,88.62750000000027,,
+2023-05-19,hedge,,,,,30553.148148000004,,,,,,,,-73.0,30556.204074
+2023-05-24,entry,P0047,long_straddle,4.0,long_vol,-8201.91,70.52252570038021,,,,,,,,
+2023-05-26,exit,P0047,,,,,,,signal_convergence,-109.46000000000004,-82.55000000000018,10.4,16.51000000000007,,
+2023-06-02,entry,P0048,iron_butterfly,6.0,short_vol,8728.215,7942.046599663764,,,,,,,,
+2023-06-02,hedge,,,,,-25252.329456000003,,,,,,,,59.0,-25249.804728000003
+2023-06-06,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-06-07,entry,P0049,iron_butterfly,9.0,short_vol,11065.387500000003,11469.571515270396,,,,,,,,
+2023-06-08,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-06-09,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-06-12,entry,P0050,iron_butterfly,7.0,short_vol,9920.697499999997,9421.409071326741,,,,,,,,
+2023-06-12,hedge,,,,,-67686.33456,,,,,,,,156.0,-67679.56728
+2023-06-13,exit,P0048,,,,,,,signal_convergence,-176.54999999999927,-121.125,31.200000000000003,24.225000000000136,,
+2023-06-13,exit,P0049,,,,,,,signal_convergence,-316.3949999999986,-224.66250000000036,46.800000000000004,44.9325,,
+2023-06-13,exit,P0050,,,,,,,signal_convergence,-243.77500000000327,-172.81250000000182,36.4,34.562500000000234,,
+2023-06-13,hedge,,,,,93863.12362000001,,,,,,,,-215.0,93872.51181000001
+2023-06-15,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-06-23,entry,P0051,iron_butterfly,7.0,short_vol,9050.0375,10583.414483597819,,,,,,,,
+2023-06-27,exit,P0051,,,,,,,signal_convergence,-213.9549999999981,-147.96249999999782,36.4,29.592500000000122,,
+2023-07-06,entry,P0052,long_straddle,4.0,long_vol,-6763.720000000001,2963.496811055745,,,,,,,,
+2023-07-07,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-07-10,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-07-11,entry,P0053,long_straddle,4.0,long_vol,-6584.039999999999,3337.3482473359513,,,,,,,,
+2023-07-11,hedge,,,,,38928.692704,,,,,,,,-88.0,38932.586352
+2023-07-12,exit,P0052,,,,,,,signal_convergence,-94.88000000000102,-70.40000000000146,10.4,14.080000000000226,,
+2023-07-12,exit,P0053,,,,,,,signal_convergence,-93.91999999999825,-69.59999999999854,10.4,13.9199999999998,,
+2023-07-12,hedge,,,,,-39257.609952,,,,,,,,88.0,-39253.684976
+2023-07-27,entry,P0054,long_straddle,4.0,long_vol,-6543.43,3428.80865342357,,,,,,,,
+2023-07-27,hedge,,,,,23524.774104,,,,,,,,-52.0,23527.127052
+2023-07-28,exit,P0054,,,,,,,signal_convergence,-93.6200000000008,-69.35000000000036,10.4,13.870000000000005,,
+2023-07-28,hedge,,,,,-23764.591967999997,,,,,,,,52.0,-23762.215984
+2023-08-01,entry,P0055,long_straddle,4.0,long_vol,-6385.5599999999995,3674.094335761176,,,,,,,,
+2023-08-01,hedge,,,,,24644.990016000003,,,,,,,,-54.0,24647.455008
+2023-08-02,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-08-03,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-08-04,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-08-07,entry,P0056,long_straddle,4.0,long_vol,-7083.4,1597.5147847402266,,,,,,,,
+2023-08-08,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-08-09,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-08-10,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-08-11,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-08-14,entry,P0057,long_straddle,4.0,long_vol,-6639.99,2356.2363822142484,,,,,,,,
+2023-08-14,hedge,,,,,37633.711752,,,,,,,,-84.0,37637.475876000004
+2023-08-15,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-08-16,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-08-16,exit,P0055,,,,,,,maximum_holding_period,-91.51999999999953,-67.59999999999945,10.4,13.519999999999932,,
+2023-08-16,hedge,,,,,-23745.308112000002,,,,,,,,54.0,-23742.934056000002
+2023-08-17,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-08-18,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-08-21,entry,P0058,long_straddle,4.0,long_vol,-7522.499999999999,518.9885269201382,,,,,,,,
+2023-08-22,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-08-22,exit,P0056,,,,,,,maximum_holding_period,-98.23999999999978,-73.20000000000073,10.4,14.640000000000075,,
+2023-08-23,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-08-24,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-08-28,entry,P0059,long_straddle,4.0,long_vol,-6659.12,1772.7237882967843,,,,,,,,
+2023-08-29,exit,P0057,,,,,,,maximum_holding_period,-90.73999999999978,-66.95000000000073,10.4,13.390000000000146,,
+2023-08-31,exit,P0058,,,,,,,signal_convergence,-104.35999999999876,-78.29999999999927,10.4,15.659999999999918,,
+2023-08-31,exit,P0059,,,,,,,signal_convergence,-92.47999999999956,-68.39999999999964,10.4,13.680000000000003,,
+2023-08-31,hedge,,,,,-37836.965879999996,,,,,,,,84.0,-37833.18294
+2023-09-12,entry,P0060,iron_butterfly,6.0,short_vol,8905.14,6977.239296389392,,,,,,,,
+2023-09-12,hedge,,,,,-27210.831078000003,,,,,,,,61.0,-27208.110539
+2023-09-14,exit,P0060,,,,,,,signal_convergence,-175.5600000000013,-120.29999999999927,31.200000000000003,24.060000000000013,,
+2023-09-14,hedge,,,,,27466.465608000002,,,,,,,,-61.0,27469.212804000003
+2023-09-20,entry,P0061,long_straddle,4.0,long_vol,-6618.46,1338.04413687512,,,,,,,,
+2023-09-21,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-09-22,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-09-25,entry,P0062,long_straddle,4.0,long_vol,-7297.29,399.88947840742844,,,,,,,,
+2023-09-25,hedge,,,,,35435.771428,,,,,,,,-82.0,35439.315714000004
+2023-09-26,entry_rejected,,,,,,,['Trade cooldown active (1 < 5 days).'],,,,,,,
+2023-09-27,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-09-28,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-09-29,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-10-02,entry,P0063,long_straddle,4.0,long_vol,-7518.24,571.1888089268674,,,,,,,,
+2023-10-03,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-04,entry_rejected,,,,,,,"['Trade cooldown active (2 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-05,entry_rejected,,,,,,,"['Trade cooldown active (3 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-05,exit,P0061,,,,,,,maximum_holding_period,-93.31999999999971,-69.10000000000036,10.4,13.820000000000121,,
+2023-10-06,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-10-09,entry,P0064,long_straddle,4.0,long_vol,-7643.0199999999995,1647.7078235682195,,,,,,,,
+2023-10-09,hedge,,,,,21610.1771,,,,,,,,-50.0,21612.33855
+2023-10-10,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-10,exit,P0062,,,,,,,maximum_holding_period,-100.21999999999935,-74.85000000000036,10.4,14.970000000000017,,
+2023-10-11,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-10-12,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-10-13,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-10-16,entry,P0065,long_straddle,4.0,long_vol,-7485.17,901.3909245349926,,,,,,,,
+2023-10-17,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-17,exit,P0063,,,,,,,maximum_holding_period,-104.0,-78.0,10.4,15.600000000000058,,
+2023-10-18,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-10-19,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-10-20,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-10-23,entry,P0066,long_straddle,4.0,long_vol,-8550.58,3718.7070702961837,,,,,,,,
+2023-10-24,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-24,exit,P0064,,,,,,,maximum_holding_period,-105.31999999999971,-79.10000000000036,10.4,15.820000000000078,,
+2023-10-25,entry_rejected,,,,,,,['Trade cooldown active (2 < 5 days).'],,,,,,,
+2023-10-26,entry_rejected,,,,,,,['Trade cooldown active (3 < 5 days).'],,,,,,,
+2023-10-27,entry_rejected,,,,,,,['Trade cooldown active (4 < 5 days).'],,,,,,,
+2023-10-30,entry,P0067,long_straddle,4.0,long_vol,-8160.890000000001,3358.2271771875976,,,,,,,,
+2023-10-31,entry_rejected,,,,,,,"['Trade cooldown active (1 < 5 days).', 'Open position count 3 >= maximum 3.']",,,,,,,
+2023-10-31,exit,P0065,,,,,,,maximum_holding_period,-100.21999999999935,-74.85000000000036,10.4,14.970000000000105,,
+2023-10-31,hedge,,,,,-23842.167479999996,,,,,,,,57.0,-23839.78374
+2023-11-01,exit,P0066,,,,,,,signal_convergence,-119.23999999999978,-90.69999999999891,10.4,18.14,,
+2023-11-01,exit,P0067,,,,,,,signal_convergence,-113.65999999999985,-86.05000000000018,10.4,17.210000000000036,,
+2023-11-01,hedge,,,,,-31705.8399,,,,,,,,75.0,-31702.66995
+2023-11-09,entry,P0068,iron_butterfly,10.0,short_vol,13218.875,5541.9108672632965,,,,,,,,
+2023-11-09,hedge,,,,,-26469.532848,,,,,,,,61.0,-26466.886424
+2023-11-13,exit,P0068,,,,,,,signal_convergence,-404.3500000000022,-293.62500000000364,52.0,58.72499999999997,,
+2023-11-13,hedge,,,,,26846.219682,,,,,,,,-61.0,26848.904841
+2023-11-29,entry,P0069,iron_butterfly,5.0,short_vol,6560.5125,2403.0537695364656,,,,,,,,
+2023-12-08,entry_skipped,,,,,,,,structure_selection_failed,,,,,,
+2023-12-11,entry_skipped,,,,,,,,structure_selection_failed,,,,,,
+2023-12-12,entry_skipped,,,,,,,,structure_selection_failed,,,,,,
+2023-12-13,entry_skipped,,,,,,,,structure_selection_failed,,,,,,
+2023-12-14,entry_rejected,,,,,,,['Duplicate iron_butterfly already open for expiration 2023-12-29.'],,,,,,,
+2023-12-14,exit,P0069,,,,,,,maximum_holding_period,-121.02500000000055,-79.18750000000091,26.0,15.837499999999988,,
+2023-12-15,entry_skipped,,,,,,,,structure_selection_failed,,,,,,

@@ -1,0 +1,11 @@
+{
+  "spy_prices_rows": 2516,
+  "spy_first_date": "2014-01-02",
+  "spy_last_date": "2023-12-29",
+  "vix_rows": 2516,
+  "vix_first_date": "2014-01-02",
+  "vix_last_date": "2023-12-29",
+  "risk_free_rows": 2501,
+  "risk_free_first_date": "2014-01-02",
+  "risk_free_last_date": "2023-12-29"
+}

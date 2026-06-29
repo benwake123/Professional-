@@ -1,0 +1,2 @@
+initial_equity,ending_equity,realized_option_pnl,unrealized_option_pnl,hedge_pnl,commissions,slippage,reconciliation_rhs,difference,open_option_market_value,stock_market_value,cash,net_pnl
+1000000.0,964557.800601999,-24481.612500000025,0.0,-2957.737198999941,2839.1999999999925,5163.649698999947,964557.8006020001,-1.0477378964424133e-09,0.0,0.0,964557.800601999,-35442.19939800096

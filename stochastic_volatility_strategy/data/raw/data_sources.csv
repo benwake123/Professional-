@@ -1,0 +1,5 @@
+file,source,source_url,coverage_in_pack,status,important_note
+spy_prices.csv,Public GitHub dataset: willhjw/big_movers,https://raw.githubusercontent.com/willhjw/big_movers/refs/heads/main/SPY%20Historical%20Data.csv,2014-01-02 through 2023-12-29,Real public OHLCV data; third-party source,Source has no adjusted-close field. adjusted_close is copied from close and must be replaced for final institutional-quality research.
+vix_data.csv,Cboe Global Markets official VIX and VIX9D histories,https://www.cboe.com/tradable_products/vix/vix_historical_data/,2014-01-02 through 2023-12-29,Real official data,Only dates with both VIX and VIX9D are retained.
+risk_free_rates.csv,U.S. Department of the Treasury par-yield-curve archives,https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rate-archives,2014-01-02 through 2023-12-29,Real official data,Uses the 3-month par yield and stores it as a decimal annual rate.
+spy_options.csv,No data included,,Header template only,Requires licensed or university historical options data,Do not run or report a historical options backtest until real point-in-time expired-chain quotes are inserted.

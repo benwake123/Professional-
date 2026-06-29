@@ -1,0 +1,17 @@
+\begin{table}[!htbp]
+\centering
+\caption{Walk-forward out-of-sample forecast performance}
+\label{tab:oos}
+\begin{tabular}{lrrrr}
+\toprule
+Model & MAE & RMSE & $R^2_{OOS}$ & VRP sign accuracy \\
+\midrule
+Expanding historical mean & 0.0580 & 0.0708 & 0.000 & 56.5\% \\
+Implied-variance OLS & 0.0551 & 0.0666 & 0.115 & 73.9\% \\
+Regularized public-feature model & 0.0600 & 0.0696 & 0.036 & 52.2\% \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.92\linewidth}
+\footnotesize \textit{Notes:} Every forecast uses only earlier events. $R^2_{OOS}=1-\sum(y-\hat y)^2/\sum(y-\bar y_{train})^2$. The regularized model uses a fixed ridge penalty of 10 after training-sample standardization.
+\end{minipage}
+\end{table}
